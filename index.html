@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+        .nav-project {
+            background-color: orangered;
+        }
+
+        .aboutcompany {
+            background-color: orangered;
+        }
+
+        .btn {
+            background-color: tomato;
+            color: white;
+        }
+
+        
+        #portfolio{
+            background-color: lightgray;
+            margin: 100px;
+            padding-bottom: 100px;
+
+
+        }
+        img.img-thumbnail {
+            border: 5px solid orangered;
+        }
+
+        #comment{
+            margin-top: 30px;
+        }
+        .carousel-control-prev,
+        .carousel-control-next {
+            background-color: transparent; 
+            width: 50px; 
+            height: 40px; 
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: orangered; 
+            border-radius: 50%; 
+            padding: 10px; 
+        }
+
+        
+        .carousel-indicators {
+            top: 80px; 
+        }
+
+        .carousel-indicators [data-bs-target] {
+            width: 15px; 
+            height: 15px; 
+            border-radius: 50%; 
+            border: 1px solid orangered; 
+            margin:  5px; 
+        }
+
+        .carousel-indicators .active {
+            background-color: orangered; 
+        }
+        .carousel-co h4{
+            margin-top: 20px;
+        }
+        .pricing{
+            margin-top: 60px;
+        }
+        .toast_show{
+            background-color: orangered;
+            font-size: 36px;
+            text-align: center;
+            color: white;
+            padding: 35px;
+            
+        }
+        .toast_body{
+            font-size: 18px;
+            text-align: center;
+            color: grey;
+            padding: 40px;
+            border: 1px solid orangered;
+        }
+        .toast_footer{
+            font-size: 18px;
+            text-align: center;
+            color: grey;
+            padding: 40px;
+            border: 1px solid orangered;
+
+        }
+        .footer_button{
+            font-size: 25px;
+            background-color: orangered;
+            color: white;
+            margin-top: 40px;
+        }
+        .contactsection{
+            margin-top: 100px;
+
+        }
+        .con{
+            color: grey;
+        }
+        .formsend{
+            padding: 10px;
+            margin-top: 10px;
+            
+        }
+        
+        
+        .footertype{
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding: 60px;
+        }
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <nav class="navbar navbar-expand-sm navbar-dark nav-project fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">PRICING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contract">CONTRACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="#" class="container-fluid aboutcompany text-white" style="padding: 200px;">
+        <h1 class="text-center">Aptech Chinsurah</h1>
+        <p class="text-center mt-3">We specialist in Computer Web Develpment</p>
+        <form action="form-inline">
+            <div class="input-group">
+                <input type="Email" placeholder="email address" class="form-control">
+                <button class="btn btn-primary">subscribe
+                </button>
+            </div>
+        </form>
+    </div>
+    <div id="about" class="container-fluid aboutsection" style="padding:100px;">
+        <div class="row">
+            <div class="col-sm-6" data-aos="fade-right">
+                <h3>About company Details</h3>
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem facere soluta tenetur similique
+                    aperiam omnis perferendis commodi expedita a suscipit culpa voluptates odio esse aliquid saepe animi
+                    ea nostrum veritatis explicabo architecto iusto, in possimus recusandae? Sunt, libero aperiam
+                    recusandae enim quis quos nisi consectetur voluptatem suscipit. Enim ratione doloremque asperiores
+                    omnis nulla exercitationem iure laudantium possimus architecto ipsum ab assumenda pariatur sunt
+                    illum optio expedita maxime nostrum, consectetur eligendi! Beatae, laudantium porro. Doloribus
+                    maiores blanditiis, inventore recusandae ad, ducimus incidunt eligendi animi veritatis quaerat vitae
+                    quibusdam voluptates praesentium libero itaque nisi ea fugiat tenetur. Nihil et illum itaque unde!
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad tenetur totam eum cumque, soluta quam ex
+                    consequatur quidem veritatis repellendus!</p>
+                </p>
+                <button class="btn">Get in touch</button>
+            </div>
+            <div class="col-sm-6 d-flex flex-column align-items-center" data-aos="fade-left">
+                <img src="Pro2 img2.jpg" width="200px" height="200px" class="img-thumbnail">
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 d-flex flex-column align-items-center" data-aos="fade-down">
+            <img src="Pro2 img2.jpg" width="200px" height="200px" class="img-thumbnail">
+        </div>
+        <div class="col-sm-6" data-aos="fade-up">
+            <h3>OUR VALES</h3>
+            <p>MIssion: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem facere soluta tenetur similique
+                aperiam omnis perferendis commodi expedita a suscipit culpa voluptates odio esse aliquid saepe animi
+                ea nostrum veritatis explicabo architecto iusto, in possimus recusandae? Sunt, libero aperiam
+                recusandae enim quis quos nisi consectetur voluptatem suscipit. Enim ratione doloremque asperiores
+                omnis nulla exercitationem iure laudantium possimus architecto ipsum ab assumenda pariatur sunt
+                illum optio expedita maxime nostrum, consectetur eligendi! Beatae, laudantium porro. Doloribus
+                maiores blanditiis, inventore recusandae ad, ducimus incidunt eligendi animi veritatis quaerat vitae
+                quibusdam voluptates praesentium libero itaque nisi ea fugiat tenetur. Nihil et illum itaque unde!
+
+            <p>Vission:Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad tenetur totam eum cumque, soluta quam ex
+                consequatur quidem veritatis repellendus!</p>
+            </p>
+
+        </div>
+    </div>
+    </div>
+    <!-- section 2  -->
+
+    <div id="services" class="container-fluid" style="padding: 100px;">
+        <h1 align="center">Our services</h1>
+        <p align="center">What we offer</p>
+        <div class="row mt-5" data-aos="fade-up">
+            <div class="col-sm-4" >
+                <img class="card-img" src="logo.jpg" alt="">
+                <div class="card-body">
+                    <h1 align="center">Power</h1>
+                    <p align="center">most powerful institute </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img class="card-img" src="logo.jpg" alt="">
+                <div class="card-body">
+                    <h1 align="center">love</h1>
+                    <p align="center"></p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img class="card-img" src="logo.jpg" alt="">
+                <div class="card-body">
+                    <h1 align="center">job done</h1>
+                    <p align="center">we give every student job</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-sm-4">
+                    <img class="card-img" src="logo.jpg" alt="">
+                    <div class="card-body">
+                        <h1 align="center">Hard work</h1>
+                        <p align="center">we do hardwork till progress is not done</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img class="card-img" src="logo.jpg" alt="">
+                    <div class="card-body">
+                        <h1 align="center">green</h1>
+                        <p align="center">description of the card</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img class="card-img" src="logo.jpg" alt="">
+                    <div class="card-body">
+                        <h1 align="center">certified</h1>
+                        <p align="center">yes we havr certified from West bengal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</div>
+        <!-- SECTION 3 -->
+        <div id="portfolio" class="container">
+            <h1 align="center">PORTFOLIO</h1>
+            <p align="center">What WE HAVE CREATED</p>
+            <div class="row mt-5 " data-aos="fade-up">
+                <div class="col-sm-4">
+                    <img class="card-img" src="paris.jpg" alt="">
+                    <div class="card-body">
+                        <h1 align="center">Paris</h1>
+                        <p align="center">yes, we built paris</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img class="card-img" src="newyork.jpg" alt="">
+                    <div class="card-body">
+                        <h1 align="center">newyork</h1>
+                        <p align="center">yes, We build New york city</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img class="card-img" src="sanfran.jpg" alt="">
+                    <div class="card-body">
+                        <h1 align="center">San Francisco</h1>
+                        <p align="center">Yes, San francisco is ours</p>
+                    </div>
+                </div>
+            </div>
+
+<!-- customer says -->
+ <div id="comment" class="container-fluid text-center">
+        <h2>What Our customer says</h2>
+        <div id="commentsection" class="carousel slide text-center" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#commentsection" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#commentsection" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#commentsection" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active carousel-co">
+                    <h4>comment of student - 1 <br><span>--by student 1</span></h4>
+                </div>
+                <div class="carousel-item">
+                    <h4>comment of student - 2 <br><span>--by student 2</span></h4>
+                </div>
+                <div class="carousel-item">
+                    <h4>comment of student - 3<br><span>--by student 3</span></h4>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#commentsection" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#commentsection" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+            
+        </div>
+    </div>
+</div>
+
+            <!-- PRICING SECTION -->
+
+            <div id="pricing" class="container-fluid pricing" style="padding: 40px";>
+                <h1 align="center">PRICING</h1><br>
+                <h4 align="center">Choose a payment plan that works for you</h4>
+                <div class="row mt-5" data-aos="fade-up">
+                    <div class="col-sm-4">
+                        <div class="toast_show">
+                            full stack 
+                        </div>
+                        <div class="toast_body">
+                            HTMl <br>
+                            css <br>
+                            php <br>
+                            bootstrap <br>
+                            angular <br>
+                            
+                        </div>
+                        <div class="toast_footer">
+                            <h5 align="center">Rs. 20000</h5>
+                            <p align="center">Per month</p>
+                            <button class="btn footer_button">Sign-up</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="toast_show">
+                            full stack 
+                        </div>
+                        <div class="toast_body">
+                            HTMl <br>
+                            css <br>
+                            php <br>
+                            bootstrap <br>
+                            angular <br>
+                            
+                        </div>
+                        <div class="toast_footer">
+                            <h5 align="center">Rs. 20000</h5>
+                            <p align="center">Per month</p>
+                            <button class="btn footer_button">Sign-up</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="toast_show">
+                            full stack 
+                        </div>
+                        <div class="toast_body">
+                            HTMl <br>
+                            css <br>
+                            php <br>
+                            bootstrap <br>
+                            angular <br>
+                            
+                        </div>
+                        <div class="toast_footer">
+                            <h5 align="center">Rs. 20000</h5>
+                            <p align="center">Per month</p>
+                            <button class="btn footer_button">Sign-up</button>
+                        </div>
+                    </div>
+
+                </div>
+              </div>
+              
+<!-- contact section -->
+
+<div id="contract" class="container-fluid contactsection " style="padding: 40px;">
+    <h1 align="center">Contact</h1>
+    <div class="row mt-5">
+        <div class="col-sm-6" data-aos="fade-right">
+            <p class="con">Contact us and we will get back to youwithin 24 hours</p>
+            <p class="con">Chinsurah, West Bengal, India</p>
+            <p class="con">Phone-12345678900</p>
+            <p class="con">Mail id- aptechchinsurah@gmail.com</p>
+        </div>
+        <div class="col-sm-6" data-aos="fade-left">
+            <form action="">
+                <div class="row">
+                    <div class="col_con">
+                        <input type="text" class="form-control" placeholder="name" name="name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Email" name="name">
+                    </div>
+                </div>
+                <label for=""></label>
+                <textarea  id="comment" class="form-control" rows="4" placeholder="comment"></textarea>
+            </form>
+            <button type="submit" class="formsend">send</button>
+        </div>
+    </div>
+
+    
+</div>
+<!-- MAP SECTION -->
+<div class="imgsection">
+    <img src="map.jpg" alt="">
+</div>
+
+
+<footer class="footertype">
+    &copy;agantuk bhattacharya
+</footer>
+</body>
+</html>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        AOS.init({
+            duration: 1000,
+            once: false,
+            easing: 'ease-in-out'  // smooth easing effect
+        });
+    });
+</script>
+
